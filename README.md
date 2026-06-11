@@ -23,7 +23,7 @@ mvn spring-boot:run
 CREATE KEYSPACE IF NOT EXISTS activity_log
 WITH replication = {
   'class': 'NetworkTopologyStrategy',
-  'datacenter1': 1          -- use 3 in production
+  'datacenter1': 
 }
 AND durable_writes = true;
 ```
